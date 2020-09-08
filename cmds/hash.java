@@ -4,7 +4,7 @@ https://dev.to/awwsmm/how-to-encrypt-a-password-in-java-42dh
 
 All documentation and explanation of how the code works is at the article.
 */
-package cmds.password;
+package cmds;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
@@ -15,7 +15,7 @@ import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 import java.security.SecureRandom;
 
-public final class password {
+public final class hash {
   private static final int ITERATIONS = 65536;
   private static final int KEY_LENGTH = 512;
   private static final String ALGORITHM = "PBKDF2WithHmacSHA512";
