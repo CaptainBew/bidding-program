@@ -1,3 +1,5 @@
+package cmds.bid;
+
 import java.util.Scanner;
 class bid{
 
