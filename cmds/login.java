@@ -1,6 +1,6 @@
 package cmds;
 
-
+//test
 
 public class login {
 //https://dev.to/awwsmm/how-to-encrypt-a-password-in-java-42dh
